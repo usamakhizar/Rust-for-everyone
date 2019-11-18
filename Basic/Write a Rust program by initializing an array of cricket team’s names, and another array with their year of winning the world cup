@@ -1,0 +1,33 @@
+//Write a Rust program by initializing an array of cricket team’s names, and another array
+//with their year of winning the world cup. 
+//Print the data as below:
+
+//Output be like:
+
+//Cricket Team: Pakistan -
+//Year: 1992
+//Cricket Team: SriLanka -
+//Year: 1996
+//(Note: For the sake of simplicity, limit only 5 teams’ names.)
+
+fn main() {
+    //array of cricket tteamseam"s names 5 
+    //array of their year of winning
+    //array declaration and intialization
+    let _teams:[&str;5]=["Pakistan","Sri Lanka","Austrailia","India","England"];
+    let _yteam:[i32;5]=[1992,1996,1999,2011,2019];
+    println!("-----Displaying Data-----");
+
+    
+    for mut _num in 0.._teams.len()
+    {
+        print!("Cricket Team:{}",_teams[_num]);
+        print!("-Year:{}",_yteam[_num]);
+        _num+=1;
+        println!();
+           }
+
+}
+
+//Developed my usamakhizar
+//https://github.com/usamakhizar
