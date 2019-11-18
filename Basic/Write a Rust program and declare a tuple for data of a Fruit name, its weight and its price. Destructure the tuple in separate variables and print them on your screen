@@ -1,0 +1,18 @@
+//Q-2# Write a Rust program and declare a tuple for data of a Fruit name, its weight and its
+//price. Destructure the tuple in separate variables and print them on your screen/terminal.
+
+fn main() {
+    //fruit name its weight and its price in a tuple
+    let _fruit_tuple =("Banana",10.0,80);
+    //Destructuring Tuple
+    let (_name,_weight,_price)=_fruit_tuple;//assigning tuple to distinct variables
+    ////////////////
+    println!("-----Displaying-----");
+    println!("Fruit Name is:{}",_name);
+    println!("Weight is:{}",_weight);
+    println!("Price is:{}",_price);
+   // println!("{}",_divresult);
+}
+
+//Developed my usamakhizar
+//https://github.com/usamakhizar
