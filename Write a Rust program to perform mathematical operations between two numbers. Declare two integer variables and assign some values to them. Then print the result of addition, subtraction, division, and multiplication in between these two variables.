@@ -1,0 +1,29 @@
+
+//Q # 1​ . Write a Rust program to perform mathematical operations between two numbers.
+//Declare two integer variables and assign some values to them. Then print the result of addition,
+//subtraction, division, and multiplication in between these two variables.
+
+fn main() {
+    //mathematical operation
+    let _var1 :i16=10;//declaring and assigning values
+    let _var2 :i16=2;//declaring and assigning values
+    let _addresult :i16 = _var1+_var2;
+    let _subresult :i16 = _var1-_var2;
+    let _mulresult :i16 = _var1*_var2;
+    let _divresult :i16 = _var1/_var2;
+    ////////////////
+    println!("Addition Result:");
+    println!("{}",_addresult);
+    ////////////////
+    println!("Subtraction Result:");
+    println!("{}",_subresult);
+    ////////////////
+    println!("Multiplication Result:");
+    println!("{}",_mulresult);
+    ////////////////
+    println!("Division Result:");
+    println!("{}",_divresult);
+}
+
+//Developed my usamakhizar
+//https://github.com/usamakhizar
