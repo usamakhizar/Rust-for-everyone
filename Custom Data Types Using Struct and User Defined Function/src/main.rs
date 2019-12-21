@@ -1,8 +1,3 @@
-//Assignment no.6
-//Batch-3
-//Muhammad Usama Khizar
-//PIAIC58290
-
 //1-Structure is created with one String datatype
       #[derive(Debug)] //I Added this adove the struct definition to have rust extend the debug trait for printing its complete instance 
       struct Students {
